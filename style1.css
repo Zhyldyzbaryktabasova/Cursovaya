@@ -243,6 +243,7 @@ header {
   font-size: 48px;
   line-height: 300px;
   margin-bottom: 0px;
+  text-align: center;
 }
 .testi {
   flex-basis: 20%; 
