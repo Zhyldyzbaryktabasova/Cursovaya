@@ -243,6 +243,7 @@ header {
   font-size: 48px;
   line-height: 300px;
   margin-bottom: 0px;
+  padding: 20px;
   
 }
 .testi {
@@ -251,6 +252,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 25px;
 }
 
 .testi img {
@@ -259,5 +261,20 @@ header {
   display: block;
 }
 
-
+footer {
+  width: 100%;
+  height: auto;
+  background: #1a1f25;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+footer h3 {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+footer p {
+  color: white;
+}
 
