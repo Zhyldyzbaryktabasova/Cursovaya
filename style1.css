@@ -236,30 +236,32 @@ header {
 
 .block-4 {
   background-image: url(./images/article-bg.png);
-  padding: 10px 0;
+  padding: 336px 0 160px;
 }
 .block-4 h2 {
   color:#1a1f25;
   font-size: 48px;
-  line-height: 300px;
-  margin-bottom: 0px;
-  padding: 20px;
-  
+  line-height: 59px;
+  margin: 0 0 90px;
+}
+.testi p {
+  margin: 0;
+  width: calc(100% - 70px);
 }
 .testi {
-  flex-basis: 20%; 
+  flex-basis: 50%; 
   flex-grow: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 25px;
+  padding-bottom: 60px;
 }
 
 .testi img {
   width: 50px;
   height: 50px;
   display: block;
+  margin-right: 20px;
 }
+
 
 footer {
   width: 100%;
