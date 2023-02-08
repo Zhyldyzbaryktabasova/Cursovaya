@@ -246,7 +246,7 @@ header {
 }
 .testi p {
   margin: 0;
-  width: calc(100% - 70px);
+  width: calc(100%-70);
 }
 .testi {
   flex-basis: 50%; 
@@ -261,12 +261,49 @@ header {
   display: block;
   margin-right: 20px;
 }
+.block-5 {
+  width: 100%;
+  height: auto;
+  background: black;
+}
+.block-5 img {
+  width: 935px;
+  height: 940px;
+  display: block;
+}
+.block-5  h2  {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.block-5 h3  {
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.block-5 h4 {
+  color: #fff;
+  font-size: 14px;
+  margin-left:10px;
+}
+.block-5 p {
+  color:#fff;
+}
+.block-5 input {
+  color:aqua
+}
+.block-5 s {
+  color: #fff;
+}
+
+
+
 
 
 footer {
   width: 100%;
   height: auto;
-  background: #1a1f25;
+  background: #121b23;
   margin: 0 auto;
   text-align: center;
   padding-top: 25px;
