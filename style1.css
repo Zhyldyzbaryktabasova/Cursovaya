@@ -262,14 +262,11 @@ header {
   margin-right: 20px;
 }
 .block-5 {
-  width: 100%;
-  height: auto;
-  background: black;
+  height: 100vh;
+  display: flex;
+  background: #000;
 }
 .block-5 img {
-  width: 935px;
-  height: 940px;
-  display: block;
 }
 .block-5  h2  {
   color: white;
@@ -289,20 +286,20 @@ header {
 .block-5 p {
   color:#fff;
 }
-.block-5 input {
-  color:aqua
-}
 .block-5 s {
   color: #fff;
 }
+.block-5-ap {
+display: flex;
 
+}
 
 
 
 
 footer {
   width: 100%;
-  height: auto;
+  height: 100%;
   background: #121b23;
   margin: 0 auto;
   text-align: center;
