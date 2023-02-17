@@ -7,9 +7,10 @@ body {
   font-weight: 500;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1244px;
   padding: 0 15px;
   margin: 0 auto;
+  width: 100%;
 }
 .row {
   display: flex;
@@ -111,15 +112,6 @@ p {
   font-size: 20px;
   padding: 1px;
   margin: 0 auto;
-}
-button {
-  
-  border-color: #4a454a;
-  background-color: transparent;
-  padding: 8px 50px;
-  text-align: center;
-  color: #0a0707;
-  border: 2px solid #4a4545;
 }
 header {
   background-image: url(./images/bg.png);
@@ -277,7 +269,6 @@ header {
   margin-right: 20px;
 }
 .block-5 {
-  height: 100vh;
   display: flex;
   background: #000;
 }
@@ -295,7 +286,6 @@ header {
 .block-5 h4 {
   color: #fff;
   font-size: 14px;
-  margin-left:10px;
 }
 .block-5 p {
   color:#fff;
@@ -304,10 +294,98 @@ header {
   color: #fff;
 }
 .block-5-ap {
-display: flex;
-
+  display: flex;
+  margin: 0 -5px;
+  max-width: 602px;
+  width: 100%;
 }
-
+.block-5-in{
+  margin: 0 5px;
+}
+.header-button{
+  display: block;
+  margin: 60px auto 0;
+  background: transparent;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #000;
+  padding: 20px 84px 20px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.header-button::before{
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background: url(images/arrow.png);
+  right: 40px;
+  top: 50%;
+  margin-top: -6px;
+}
+.header-button:hover{
+  background: rgba(255,255,255,0.5);
+}
+.block-5-in{
+  border: 1px solid #fff;
+  height: 284px;
+  padding: 60px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  position: relative;
+}
+.block-5-in h4{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.block-5-in p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+.block-5-in s{
+  font-size: 14px;
+  line-height: 16px;
+}
+.block-5-in span{
+  display: block;
+  margin-top: 6px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.block-5-in--blue{
+  background: linear-gradient(#61B3C9 0%, #074D88 100%);
+}
+.block-5-in::before {
+  content: "";
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  position: absolute;
+  background: #000;
+  border: 1px solid #fff;
+  top: 0;
+  margin-top: -39px;
+  left: 50%;
+  margin-left: -39px;
+}
+.block-5-in::after{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  background: #000;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+}
 
 
 
