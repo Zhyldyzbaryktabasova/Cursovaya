@@ -400,7 +400,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   padding-top: 25px;
-  display: flexbox;
+  display: flex;
 }
 footer h2 {
   color: white;
