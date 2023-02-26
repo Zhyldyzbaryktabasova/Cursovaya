@@ -393,13 +393,20 @@ header {
 
 
 
+.footer-container {
+  background-color: #ec7979;
+  padding: 4rem;
+}
+
 footer {
   width: 100%;
   height: 100%;
-  background: #555758;
+  background: #1e2021;
   margin: 0 auto;
-  text-align: center;
+  text-decoration: none;
   padding-top: 25px;
+  flex-direction: column;
+  justify-content: center;
   display: flex;
 }
 footer h2 {
@@ -412,6 +419,7 @@ footer p {
   margin:0;
   width: calc();
   color: white;
+
 }
 
 
@@ -423,9 +431,8 @@ footer img {
 }
 .social {
   display:flex;
-  width: 10px;
+  width: -10px;
   height: 10px;
   font-size: 14px;
   margin-left: 10px;
 }
-
