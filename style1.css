@@ -399,7 +399,6 @@ footer {
   text-decoration: none;
   padding-top: 25px;
   justify-content: center;
-  display: flex;
 }
 footer h2 {
   color: white;
@@ -422,7 +421,7 @@ footer img {
   margin-right: 20px;
 }
 .social {
-  display;;
+  display: flex;
   width: -10px;
   height: 10px;
   font-size: 14px;
