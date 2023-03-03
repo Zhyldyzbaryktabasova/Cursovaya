@@ -271,6 +271,22 @@ header {
 .block-5 {
   display: flex;
   background: #000;
+  position: relative;
+}
+.block-5::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50%;
+  width: 50%;
+  background: url(images/block-5-bg.png) top right no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.block-5 .container{
+  position: relative;
+  z-index: 2;
 }
 
 .block-5  h2  {
@@ -412,8 +428,8 @@ header {
   background: #161718;
   margin: 0 auto;
   padding-top: 103px 0 160px;
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: flex-start;
   height: 100%;
 }
 .footer span {
@@ -440,9 +456,47 @@ header {
   margin-right: 5px;
 }
 .social {
-  display: flex;
+  display:flex;
   width: 10px;
   height: 10px;
   font-size: 40px;
-  margin-left: 900px;
+  margin-left: 500px;
+}
+.form_input{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.form_input input,
+.form_input textarea{
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  background: none;
+  border: 0;
+  outline: none;
+  color: #fff;
+  font-family: inherit;
+  width: 100%;
+}
+.form_input textarea{
+  height: 60px;
+  resize: none;
+}
+.form_input .input_btn{
+  border-color: #fff;
+  background-color: transparent;
+  padding: 15px 32px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 194px;
+}
+.block-5 form{
+  padding-right: 73px;
+}
+.form_input input::-webkit-input-placeholder,
+.form_input textarea::-webkit-input-placeholder{
+  color: #fff;
 }
