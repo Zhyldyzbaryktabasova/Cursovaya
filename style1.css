@@ -440,6 +440,7 @@ header {
 .footer li{
   color: white;
   font-size: 14px;
+  margin-left: 10px;
 }
 .feature {
   margin: 0px;
