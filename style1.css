@@ -456,25 +456,12 @@ header {
   padding: 0px;
   width: 321px;
   height: 152.5px;
-  
+
 
 }
 .footer a {
   color: #fff;
   height: 15px;
-}
-.footer img {
-  width: 18px;
-  height: 18px;
-  display: block;
-  margin-right: 5px;
-}
-.social {
-  display:flex;
-  width: 10px;
-  height: 10px;
-  font-size: 40px;
-  margin-left: 500px;
 }
 .form_input{
   border-bottom: 1px solid #fff;
