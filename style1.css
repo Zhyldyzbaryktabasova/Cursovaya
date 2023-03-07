@@ -429,8 +429,10 @@ header {
 
 .footer-5 {
   max-width: none;
-  height: 455px;
+  height: 100%;
   background: #161718;
+  margin: 0 auto;
+  
 }
 .item {
   margin-top: 200px;
