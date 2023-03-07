@@ -437,7 +437,7 @@ header {
   justify-content: flex-start;
   height: 100%;
   }
-.item {
+.footer li{
   margin-top: 200px;
 }
 .feature {
