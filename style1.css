@@ -433,6 +433,7 @@ header {
   background: #161718;
   margin: 0 auto;
   padding-top: 103px 0 160px;
+  display: inline-flex;
   
 
 }
