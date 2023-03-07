@@ -439,6 +439,7 @@ header {
   }
 .footer li{
   color: white;
+  font-size: 14px;
 }
 .feature {
   margin: 0px;
