@@ -442,6 +442,9 @@ header {
   font-size: 14px;
   margin-left: 10px;
 }
+.footer img{
+  width: 18px;
+}
 .feature {
   margin: 0px;
   display: flex;
