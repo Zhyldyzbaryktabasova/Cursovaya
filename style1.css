@@ -480,6 +480,7 @@ header {
   width: 10px;
   height: 10px;
   font-size: 40px;
+  margin-left: 500px;
 }
 .form_input{
   border-bottom: 1px solid #fff;
