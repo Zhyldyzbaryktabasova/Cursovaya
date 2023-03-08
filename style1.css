@@ -478,6 +478,7 @@ header {
 .social {
   display:flex;
   width: 10px;
+  height: 10px;
 }
 .form_input{
   border-bottom: 1px solid #fff;
