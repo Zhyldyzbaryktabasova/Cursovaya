@@ -475,6 +475,9 @@ header {
   color: #fff;
   height: 15px;
 }
+.social {
+  display:flex;
+}
 .form_input{
   border-bottom: 1px solid #fff;
   padding-bottom: 40px;
