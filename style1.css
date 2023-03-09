@@ -437,9 +437,13 @@ header {
   justify-content: flex-start;
   height: 100%;
   }
+  .footer h5 {
+    color;
+
+  }
 .footer li{
   color: white;
-  font-size: 14px;
+  font-size: 40px;
   margin-left: 10px;
 }
 .footer img{
@@ -472,7 +476,7 @@ header {
 }
 .footer a {
   color: #fff;
-  height: 15px;
+  height: 25px;
 }
 .social {
   display:flex;
